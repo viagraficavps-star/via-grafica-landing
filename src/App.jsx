@@ -7,7 +7,6 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
-import PreFooterCTA from './components/PreFooterCTA';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
@@ -55,14 +54,11 @@ export default function App() {
         {/* 8. Os Clientes Têm Sempre Razão (Testimonials Cards) */}
         <Testimonials />
 
-        {/* 9. Pre-Footer Callout Bar */}
-        <PreFooterCTA onOpenBudgetModal={handleOpenBudgetModal} />
-
-        {/* 10. Contato & Google Maps */}
+        {/* 9. Contato & Google Maps */}
         <Contact />
       </main>
 
-      {/* 11. Footer */}
+      {/* 10. Footer */}
       <Footer onOpenBudgetModal={handleOpenBudgetModal} />
 
       {/* Floating WhatsApp & Back-To-Top */}
