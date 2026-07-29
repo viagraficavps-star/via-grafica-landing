@@ -18,8 +18,8 @@ export default function Navbar({ onOpenBudgetModal }) {
   const navLinks = [
     { name: 'Início', href: '#hero' },
     { name: 'Sobre', href: '#sobre' },
-    { name: 'Serviços', href: '#servicos' },
     { name: 'Trabalhos', href: '#galeria' },
+    { name: 'Serviços', href: '#servicos' },
     { name: 'Avaliações', href: '#avaliacoes' },
     { name: 'Contato', href: '#contato' },
   ];

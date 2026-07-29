@@ -53,8 +53,8 @@ export default function Footer({ onOpenBudgetModal }) {
             <ul className="space-y-2.5 text-sm text-gray-400">
               <li><a href="#hero" className="hover:text-white transition-colors">Início</a></li>
               <li><a href="#sobre" className="hover:text-white transition-colors">Sobre a Empresa</a></li>
-              <li><a href="#servicos" className="hover:text-white transition-colors">Nossos Serviços</a></li>
               <li><a href="#galeria" className="hover:text-white transition-colors">Galeria de Projetos</a></li>
+              <li><a href="#servicos" className="hover:text-white transition-colors">Nossos Serviços</a></li>
               <li><a href="#avaliacoes" className="hover:text-white transition-colors">Avaliações de Clientes</a></li>
               <li><a href="#contato" className="hover:text-white transition-colors">Contato & Mapa</a></li>
             </ul>

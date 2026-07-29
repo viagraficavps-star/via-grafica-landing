@@ -43,11 +43,11 @@ export default function App() {
         {/* 4. About */}
         <About />
 
-        {/* 5. Principais Serviços */}
-        <Services onOpenBudgetModal={handleOpenBudgetModal} />
-
-        {/* 6. Alguns Trabalhos (Portfolio & Lightbox Gallery) */}
+        {/* 5. Alguns Trabalhos (Portfolio & Lightbox Gallery) */}
         <Gallery onOpenBudgetModal={handleOpenBudgetModal} />
+
+        {/* 6. Principais Serviços */}
+        <Services onOpenBudgetModal={handleOpenBudgetModal} />
 
         {/* 7. Como Funciona (Timeline) */}
         <HowItWorks onOpenBudgetModal={handleOpenBudgetModal} />
