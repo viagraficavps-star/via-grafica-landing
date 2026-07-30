@@ -10,39 +10,43 @@ export default function About() {
           
           {/* Left Narrative Column */}
           <div className="lg:col-span-7 flex flex-col items-start">
-            <span className="text-xs font-bold uppercase tracking-widest text-neon-dark bg-neon/15 px-3.5 py-1.5 rounded-full mb-4 border border-neon/30">
-              Tradição & Agilidade
+            
+            {/* Tagline Superior */}
+            <span className="text-xs font-extrabold uppercase tracking-widest text-[#49C926] bg-[#49C926]/10 px-4 py-1.5 rounded-full mb-4 border border-[#49C926]/30">
+              TRADIÇÃO & CONFIANÇA
             </span>
 
+            {/* Título Principal */}
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-black text-dark tracking-tight leading-tight mb-6">
-              Especializados em <span className="text-neon-dark underline decoration-neon decoration-4 underline-offset-4">qualidade e rapidez.</span>
+              Há 18 anos entregando a <span className="text-[#49C926] underline decoration-[#49C926] decoration-4 underline-offset-4">melhor qualidade no menor prazo.</span>
             </h2>
 
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
-              Quando o prazo é curto, a qualidade é essencial e a <strong>Via Gráfica</strong> é a sua solução definitiva em Vianópolis e todo o interior de Goiás.
+            {/* Texto Apoiador */}
+            <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+              Quando o prazo é curto e a qualidade não pode falhar, a Via Gráfica é a sua parceira definitiva. Com 18 anos de experiência no mercado, oferecemos a solidez de quem domina cada detalhe da impressão e da comunicação visual em Vianópolis e em todo o interior de Goiás.
             </p>
 
             <p className="text-gray-600 text-base leading-relaxed mb-8">
-              Desenvolvemos materiais que encantam e vendem: desde cartões executivos e panfletos promocionais até projetos completos de fachadas corporativas em ACM, letras caixa 3D iluminadas e sacos de sementes para o agronegócio.
+              Desenvolvemos materiais que impressionam e geram resultados: desde cartões executivos e panfletos promocionais até projetos completos de fachadas em ACM, letras caixa 3D iluminadas e sacos de sementes para o agronegócio.
             </p>
 
-            {/* Feature Checklist Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-6">
-              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-gray-50 border border-gray-100">
-                <div className="w-8 h-8 rounded-lg bg-neon text-white font-bold flex items-center justify-center flex-shrink-0">
+            {/* Diferenciais Rápidos (Pílulas) */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-2">
+              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-gray-50 border border-gray-100 shadow-sm">
+                <div className="w-9 h-9 rounded-lg bg-[#49C926] text-white font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
                   <Clock size={18} />
                 </div>
-                <span className="text-xs sm:text-sm font-semibold text-gray-800">
-                  Cumprimento Rigoroso de Prazos
+                <span className="text-xs sm:text-sm font-bold text-gray-800">
+                  18 Anos de Tradição e Cumprimento de Prazos
                 </span>
               </div>
 
-              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-gray-50 border border-gray-100">
-                <div className="w-8 h-8 rounded-lg bg-neon text-white font-bold flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-3 p-3.5 rounded-xl bg-gray-50 border border-gray-100 shadow-sm">
+                <div className="w-9 h-9 rounded-lg bg-[#49C926] text-white font-bold flex items-center justify-center flex-shrink-0 shadow-sm">
                   <ShieldCheck size={18} />
                 </div>
-                <span className="text-xs sm:text-sm font-semibold text-gray-800">
-                  Acabamento Gráfico Premium
+                <span className="text-xs sm:text-sm font-bold text-gray-800">
+                  Acabamento Gráfico Premium e Sede Própria
                 </span>
               </div>
             </div>
@@ -57,11 +61,11 @@ export default function About() {
                 alt="Sede Própria da Via Gráfica em Vianópolis - GO"
                 className="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-dark/70 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/75 via-transparent to-transparent"></div>
               
-              <div className="absolute bottom-6 left-6 right-6 text-white bg-dark/85 backdrop-blur-md p-4 rounded-2xl border border-neon/40">
-                <p className="text-xs font-bold text-neon uppercase mb-0.5">Sede Própria em Vianópolis – GO</p>
-                <h4 className="font-bold text-sm text-white">Parque Gráfico & Atendimento Presencial</h4>
+              <div className="absolute bottom-6 left-6 right-6 text-white bg-dark/85 backdrop-blur-md p-4 rounded-2xl border border-[#49C926]/40">
+                <p className="text-xs font-bold text-[#49C926] uppercase mb-0.5">Sede Própria em Vianópolis – GO</p>
+                <h4 className="font-bold text-sm text-white">Parque Gráfico & Atendimento Presencial desde 2006</h4>
               </div>
             </div>
           </div>
