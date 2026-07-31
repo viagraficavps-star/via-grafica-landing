@@ -36,13 +36,11 @@ export const QUICK_CATEGORIES = [
 ];
 
 export const BRANDS_DATA = [
-  { name: 'PONTUAL' },
-  { name: 'FM MATERIAIS PARA CONSTRUÇÃO' },
-  { name: 'APOIO' },
-  { name: 'STARA' },
-  { name: 'CARGILL' },
-  { name: 'MINEIRA' },
-  { name: 'POSTO PETRODIESEL' },
+  { name: 'PONTUAL AGRONEGÓCIOS', logo: '/images/brands/logo_pontual.svg', heightClass: 'h-10 sm:h-12' },
+  { name: 'FM MATERIAIS PARA CONSTRUÇÃO', logo: '/images/brands/logo_fm.svg', heightClass: 'h-10 sm:h-12' },
+  { name: 'APOIO AGRO SERVICE', logo: '/images/brands/logo_apoio.svg', heightClass: 'h-12 sm:h-14' },
+  { name: 'STARA', logo: '/images/brands/logo_stara.svg', heightClass: 'h-9 sm:h-11' },
+  { name: 'CARGILL', logo: '/images/brands/logo_cargill.svg', heightClass: 'h-9 sm:h-11' },
 ];
 
 export const PRINCIPAIS_SERVICOS = [
