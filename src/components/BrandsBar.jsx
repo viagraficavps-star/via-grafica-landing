@@ -11,7 +11,7 @@ export default function BrandsBar() {
           MARCAS E EMPRESAS ATENDIDAS COM EXCELÊNCIA EM VIANÓPOLIS E REGIÃO
         </p>
 
-        {/* Logos Flex Row */}
+        {/* Logos Flex Row (Full Color by default) */}
         <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:gap-16">
           {BRANDS_DATA.map((brand, idx) => (
             <div
@@ -21,7 +21,7 @@ export default function BrandsBar() {
               <img
                 src={brand.logo}
                 alt={`Logo ${brand.name}`}
-                className={`${brand.heightClass || 'h-10 sm:h-12'} w-auto object-contain filter grayscale contrast-125 opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 cursor-pointer`}
+                className={`${brand.heightClass || 'h-10 sm:h-12'} w-auto object-contain opacity-95 hover:opacity-100 transition-all duration-300 cursor-pointer`}
               />
             </div>
           ))}
