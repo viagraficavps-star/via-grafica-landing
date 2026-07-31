@@ -5,7 +5,6 @@ import BrandsBar from './components/BrandsBar';
 import About from './components/About';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
-import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -48,17 +47,14 @@ export default function App() {
         {/* 6. Principais Serviços */}
         <Services onOpenBudgetModal={handleOpenBudgetModal} />
 
-        {/* 7. Como Funciona (Timeline) */}
-        <HowItWorks onOpenBudgetModal={handleOpenBudgetModal} />
-
-        {/* 8. Os Clientes Têm Sempre Razão (Testimonials Cards) */}
+        {/* 7. Os Clientes Têm Sempre Razão (Testimonials Cards) */}
         <Testimonials />
 
-        {/* 9. Contato & Google Maps */}
+        {/* 8. Contato & Google Maps */}
         <Contact />
       </main>
 
-      {/* 10. Footer */}
+      {/* 9. Footer */}
       <Footer onOpenBudgetModal={handleOpenBudgetModal} />
 
       {/* Floating WhatsApp & Back-To-Top */}

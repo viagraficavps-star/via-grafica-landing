@@ -6,12 +6,12 @@ export default function BrandsBar() {
     <div className="py-14 bg-white border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
-        {/* Title matching reference screenshot */}
-        <p className="text-xs sm:text-sm font-bold text-gray-400 uppercase tracking-widest mb-10">
-          MARCAS E EMPRESAS ATENDIDAS COM EXCELÊNCIA EM VIANÓPOLIS E REGIÃO
+        {/* Title updated to black text and 'ALGUMAS MARCAS...' */}
+        <p className="text-xs sm:text-sm font-black text-dark uppercase tracking-widest mb-10">
+          ALGUMAS MARCAS E EMPRESAS ATENDIDAS COM EXCELÊNCIA EM VIANÓPOLIS E REGIÃO
         </p>
 
-        {/* Logos Flex Row (Full Color by default) */}
+        {/* Logos Flex Row (Full Color) */}
         <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:gap-16">
           {BRANDS_DATA.map((brand, idx) => (
             <div
